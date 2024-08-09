@@ -8,8 +8,9 @@ readme = "README.md"
 packages = [{include = "caption2md"}]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.10"
 pysrt = "^1.1.2"
+google-generativeai = "^0.7.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0"
