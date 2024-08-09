@@ -13,7 +13,7 @@ def srt_to_readable_markdown(srt_file_path, md_file_path):
         # 写入字幕文本，去掉时间戳
         for sub in subs:
             # 写入字幕文本
-            md_file.write(f"{sub.text}\n\n")
+            md_file.write(f"{sub.text}\n")
 
 
 def batch_rename_files(directory):
