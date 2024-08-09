@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "caption2md"
+version = "0.1.0"
+description = "A tool to convert SRT subtitle files to Markdown format."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "caption2md"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pysrt = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
