@@ -8,7 +8,7 @@ genai.configure(api_key=api_key)
 
 def generate_course_outline(content, processed_content, part_number):
     # 设置 API 生成模型
-    model = genai.GenerativeModel("gemini-1.5-pro")
+    model = genai.GenerativeModel("gemini-2.5-pro-exp-03-25")
 
     # 生成文本内容
     response = model.generate_content(
