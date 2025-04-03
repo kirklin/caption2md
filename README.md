@@ -1,14 +1,23 @@
 # Caption2MD
 
-A simple Python tool that converts SRT subtitle files to readable Markdown documents.
+A simple Python tool that converts SRT subtitle files to readable Markdown documents, powered by Google Gemini AI.
 
 ## Features
 
+- Leverages Google's Gemini AI model to process subtitle content
 - Converts SRT subtitle files to clean Markdown format
 - Removes timestamps while preserving subtitle text
+- Intelligently formats AI-generated captions for better readability
 - Batch processes multiple SRT files in a directory
-- Automatically renames files by removing "（自动生成）" (auto-generated) tags
 - Creates a flag file to indicate when processing is complete
+
+## AI Integration
+
+Caption2MD utilizes Google's Gemini AI model to enhance the conversion process from SRT to Markdown. This integration allows for:
+
+- Improved text formatting and organization
+- Better handling of AI-generated captions
+- Enhanced readability of the final Markdown document
 
 ## Installation
 
@@ -23,7 +32,7 @@ pip install pysrt
 
 ## Usage
 
-1. Place your SRT files in the `srt` directory
+1. Place your AI-generated SRT files (such as those from Google Gemini) in the `srt` directory
 2. Run the script:
 
 ```bash
