@@ -2,6 +2,8 @@
 
 A simple Python tool that converts SRT subtitle files to readable Markdown documents, powered by Google Gemini AI.
 
+![banner](docs/README.assets/banner.png)
+
 ## Features
 
 - Leverages Google's Gemini AI model to process subtitle content
